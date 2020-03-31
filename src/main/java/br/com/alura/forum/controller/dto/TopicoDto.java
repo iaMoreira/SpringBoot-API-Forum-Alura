@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import br.com.alura.forum.model.Topico;
 
 public class TopicoDto {
-	private Long id;
+	
 	public Long getId() {
 		return id;
 	}
@@ -39,6 +39,7 @@ public class TopicoDto {
 	public void setDataCriacao(LocalDateTime dataCriacao) {
 		this.dataCriacao = dataCriacao;
 	}
+	private Long id;
 	private String titulo;
 	private String mensagem;
 	private LocalDateTime dataCriacao;
